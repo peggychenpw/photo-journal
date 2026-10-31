@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>光影之間 · Peggy’s photo journal</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"><script defer src="photos.js"></script><script defer src="app.js"></script></head>
+<body><header><a class="brand" href="#" aria-label="相簿首頁"><span class="mark">p.</span> Peggy’s photo journal</a><span class="private">攝影相簿</span></header>
+<main><section class="intro"><h1>光影之間<span>Through my lens.</span></h1><div class="intro-note">收藏每一個值得停留的瞬間。</div></section>
+<section class="collection" aria-label="攝影相簿"><div class="toolbar"><div class="collection-title">所有照片 <span id="count"></span></div><label class="resize" for="size"><span>縮圖大小</span><span aria-hidden="true">−</span><input id="size" type="range" min="160" max="440" step="10" value="280"><span aria-hidden="true">＋</span></label></div><div id="gallery"></div></section>
+<footer><span>Peggy’s photo journal</span><span>點選照片，放大欣賞</span></footer></main>
+<dialog id="viewer" aria-label="照片放大檢視"><div class="viewer-top"><span id="position" aria-live="polite"></span><button id="close" aria-label="關閉放大檢視">✕</button></div><button id="previous" class="arrow prev" aria-label="上一張">←</button><div class="stage"><img id="large" alt=""><p id="error" hidden>照片無法載入</p></div><button id="next" class="arrow next" aria-label="下一張">→</button><div class="viewer-bottom">← → 切換照片 <span>Esc 關閉</span></div></dialog></body></html>
